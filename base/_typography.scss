@@ -1,0 +1,29 @@
+h1 {
+    font-family: $font-title;
+    font-size: $font-xl;
+    color: $background-color;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: $font-title;
+    font-size: $font-l;
+    color: $accent-color;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: $font-title;
+    font-size: $font-m;
+    color: $text-color;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: $font-text;
+    font-size: $font-s;
+    color: $text-color;
+}
