@@ -1,6 +1,6 @@
 body {
   background-color: #FFB649;
-  font-family: "Roboto", sans-serif;
+  font-family: "Syne", serif;
   color: #0D0D0D;
   height: 100vh;
   display: flex;
@@ -13,6 +13,16 @@ h2,
 h3,
 p {
   margin: 0;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.test {
+  font-family: "Syne", serif;
+  font-size: 4em;
+  color: #EE439E;
 }
 
 .container {
@@ -31,6 +41,9 @@ p {
   align-items: center;
   gap: 0.5rem;
 }
+.container .font-container .roboto {
+  font-family: "Roboto", sans-serif;
+}
 .container .items-container {
   display: flex;
   flex-wrap: wrap;
@@ -47,11 +60,13 @@ p {
   background-color: #F2D6D0;
 }
 .container .items-container .item .item2 {
-  background: #F9D6CE;
+  background: #EE439E;
 }
 .container .items-container .item .item3 {
   background: #FFB649;
 }
 .container .items-container .item .item4 {
   background: #0D0D0D;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */

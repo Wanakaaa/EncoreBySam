@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 body {
   background-color: #FFB649;
-  font-family: "Syne", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #0D0D0D;
   height: 100vh;
   display: flex;

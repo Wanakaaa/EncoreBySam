@@ -1,6 +1,8 @@
+// C'est ici qu'on écrit le css pour la page index
+
 body {
   background-color: $background-color;
-  font-family: $font-primary;
+  font-family: $font-title;
   color: $text-color;
   height: 100vh;
   display: flex;
@@ -12,6 +14,18 @@ h2,
 h3,
 p {
   margin: 0;
+}
+
+// a mettre dans typo
+h1 {
+  font-size: 4rem;
+}
+
+.test {
+  font-family: $font-title;
+  font-size: 4em;
+  //background: $secondary-color;
+  color: $secondary-color;
 }
 
 .container {
@@ -29,6 +43,10 @@ p {
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
+
+    .roboto {
+      font-family: $font-text;
+    }
   }
 
   .items-container {
@@ -57,3 +75,4 @@ p {
     }
   }
 }
+
